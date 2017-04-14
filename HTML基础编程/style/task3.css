@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding:20px;
+	font-famliy:"微软雅黑";
+	font-size:15px;
+}
+
+img{
+	width:80px;
+	height:80px;
+}
+.main{
+	margin:0 auto;
+	padding:20px;
+	border:1px solid black;
+	overflow:auto;
+	min-width:600px;
+	background:#eee;
+	
+}
+.left{
+	float:left;
+	padding:20px;
+    width:160px;;
+	background:white;
+	border:1px solid black;
+}
+.left img{
+	float:left;
+}
+.left p{
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+}
+.right{
+	width:120px;	
+	float:right;
+	background:white;
+	border:1px solid black;
+}
+.right img{
+	background:white;
+	display:block;
+	margin:20px;
+	border:1px solid black;
+}
+.center{
+	margin-left:220px;
+	margin-right:140px;
+	padding:20px;
+	background:white;
+	border: 1px solid #999;
+}
